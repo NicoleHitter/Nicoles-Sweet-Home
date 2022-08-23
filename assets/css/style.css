@@ -106,6 +106,20 @@ h1,h2 {
     
 }
 
+#menulist li {
+    width: 30%;
+    height: 120px;
+    clear: both;
+
+}
+
+#menulist img {
+    
+    width: 30%;
+    line-height: 0;
+    clear: both;
+}
+
 /* footer */
 footer {
     background-color: #2E8B57;
