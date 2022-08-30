@@ -1,18 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre&family=Aboreto&display=swap');
 
-*{ 
+* { 
     margin:0;
     padding:0;
     border: none;
 }
    
-
 body { 
     font-family: Aboreto, sans-serif;
     font-weight: 300;
     color: 	#FFD700;
-    background-color: rgb(231, 209, 195);
-
+    background-color: #E7D1C3;
+    height: 100%;
 }
 
 header {
@@ -30,8 +29,6 @@ h1,h2 {
     color: #DAA520;
 }
 
-
-
 #logo {
     float: left;
     font-size: 280%;
@@ -48,23 +45,20 @@ h1,h2 {
 
 #menu, #logo {
     line-height: 75px;
-    
-    
 }
 
 #menu li {
     float: right;
     list-style-type: none;
-    margin-right: 30px;
-    
-    
+    margin-right: 2%;
 }
+
 #menu a {
     text-decoration: none;
     color: inherit;
 }
 
-#menu a:hover{
+#menu a:hover {
     border-bottom: 1px solid #3a3a3a;
 }
 
@@ -73,23 +67,23 @@ h1,h2 {
 }
 
 /* cake image and cover text */
-#cover-image {
-        height: 600px;
-        width:100%;
-        position: relative;
-        background-color: rgb(231, 209, 195);
 
-        }
+#cover-image {
+    height: 600px;
+    width:100%;
+    position: relative;
+    background-color: #E7D1C3;
+}
 
 #muffins-image-welcome-text {
-    height: 500px;
+    height: 80%;
     width: 40%;
     background-image: url('../images/pinkmuffins.jpg');
     background-size: cover;
     text-align: center;
     padding-top: 80px;
     float: left;
-    }
+}
 
 #muffin-image-welcome-text h2 {
     color:	#C71585;
@@ -107,44 +101,41 @@ h1,h2 {
     line-height: 40px;
     
 }
- #contact {
+
+#contact {
     text-align: center;
     color: #DAA520;
- }
+}
 
- #opentimes {
+#opentimes {
     float: left;
     width: 100%;
     clear: both;
     text-align: center;
- }
- #opentimes h3 {
+}
+
+#opentimes h3 {
     text-align: center;
- }
- #adress {
+}
+
+#adress {
     float: right;
- }
-
-
+}
 
 /* menu */
+
 #menulist {
-    padding: 0 0 0 20px;
-    
-   
-    }
+    padding: 0 0 0 5%;
+}
 
 #menulist div {
-    
-        margin:0px 0px;
-        display:inline-block;
-        text-decoration:none;
-        padding: 10px 0 10px 0;
-
-       }
+    margin:0px 0px;
+    display:inline-block;
+    text-decoration:none;
+    padding:0 5%;
+}
 
 #menulist img {
-    
     height: 200px;
 }
 
@@ -154,14 +145,12 @@ h1,h2 {
 
 .left { 
     float: left;
-    width: 33%;
+    width: 30%;
     text-align: center;
-    
-    
 }
 
 .center {
-    width: 33%;
+    width: 30%;
     text-align: center;
 }
 
@@ -169,7 +158,6 @@ h1,h2 {
     float: right;
     width: 30%;
     text-align: center;
-    
 }
 
 #menulist h3:hover{
@@ -182,30 +170,30 @@ h1,h2 {
 }
 
 /* recipe */
-#recipe {
+
+#ingredientscenter {
     text-align: center;
-    padding: 10px;
+    padding: 5%;
     font-family: Abhaya Libre, sans-serif;
     font-size: large;
-    height: 800px;
-
-}
-#recipe h3{
+    height: 40vh;
     color: #DAA520;
 }
 
-#method {
-    text-align: left;
+.methodandimage {
+    color: #DAA520;
     width: 50%;
-    float: left;
+    height: 50vh;
+    text-align: center;
+    padding: 5%;
+    font-family: Abhaya Libre, sans-serif;
+    font-size: large;
 }
-
 
 #ingredients ul {
     padding: 10px;
     color: #2E8B57;
     list-style-type: none;
-
 }
 
 #method ol {
@@ -213,19 +201,17 @@ h1,h2 {
     color: #2E8B57;
     list-style-type: upper-roman;
     list-style-position: inside;
-
 }
 
 #pancakes-image {
     width: 50%;
     float: right;
     height: 80px;
-
 }
 
 #pancakes-image img {
-    height:240px;
-    width: 260px;
+    height: 240px;
+    width:  260px;
     border-radius: 50%;
 }
 
@@ -233,22 +219,22 @@ h1,h2 {
 #signupform {
     text-align: center;
     padding: 80px 10px 10px 10px;
-    height: 500px;
+    height: 100vh;
     width: 100%;
-    background-image: url(/assets/images/roses.jpg);
+    background-image: url(../images/roses.jpg);
     background-position: center;
     background-size: cover;
-   
 }
+
 form {
     width: 30%;
     height: 300px;
     display: inline-block;
-    text-align: right;
+    text-align: left;
     font-family: Abhaya Libre, sans-serif;
     color: #DAA520;
     border: 1px solid #DAA520 ;
-    background-color: rgba(161, 35, 84, 0.7);
+    background-color: #A1235499;
     padding: 5px;
 }
 
@@ -258,10 +244,21 @@ input {
     border-radius: 4px;
 }
 
-
 input::placeholder {
     opacity: 20%;
    
+}
+
+.submitbutton {
+    text-align: center;
+    width: 30%;
+    color: #FFD700;
+    background-color: #C71585;
+}
+
+.submitbutton:hover {
+    color:antiquewhite;
+    background-color: #C71585;
 }
 
 /* footer */
@@ -270,11 +267,15 @@ footer {
     font-family: Abhaya Libre, sans-serif;
     font-size: 20px;
     color:#DAA520;
-    height: 60px;
-    display: block;
-  }
+}
+
+#footer {
+    bottom : 0;
+    height : 40px;
+    margin-top : 40px;
+}
 
 footer > p {
     margin-left: 40px;
     padding-top: 20px;
-  }
+}
