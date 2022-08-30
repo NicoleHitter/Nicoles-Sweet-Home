@@ -107,21 +107,23 @@ h1,h2 {
     line-height: 40px;
     
 }
-
-/* #menulist > div {
-    width: 30%;
-    clear: both;
-    height: 150px;
-    padding: 20px;
-}
-
-#menulist h3 {
+ #contact {
     text-align: center;
-    width: 30%;
+    color: #DAA520;
+ }
+
+ #opentimes {
+    float: left;
+    width: 100%;
     clear: both;
-
-
-}*/
+    text-align: center;
+ }
+ #opentimes h3 {
+    text-align: center;
+ }
+ #adress {
+    float: right;
+ }
 
 
 
@@ -185,7 +187,7 @@ h1,h2 {
     padding: 10px;
     font-family: Abhaya Libre, sans-serif;
     font-size: large;
-    height: 500px;
+    height: 800px;
 
 }
 #recipe h3{
@@ -269,6 +271,7 @@ footer {
     font-size: 20px;
     color:#DAA520;
     height: 60px;
+    display: block;
   }
 
 footer > p {
