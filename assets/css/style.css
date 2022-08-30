@@ -11,6 +11,7 @@ body {
     font-family: Aboreto, sans-serif;
     font-weight: 300;
     color: 	#FFD700;
+    background-color: rgb(231, 209, 195);
 
 }
 
@@ -127,7 +128,7 @@ h1,h2 {
 /* menu */
 #menulist {
     padding: 0 0 0 20px;
-    background-color:rgb(231, 209, 195);
+    
    
     }
 
@@ -185,7 +186,6 @@ h1,h2 {
     font-family: Abhaya Libre, sans-serif;
     font-size: large;
     height: 500px;
-    background-color:rgb(231, 209, 195);
 
 }
 #recipe h3{
@@ -225,6 +225,41 @@ h1,h2 {
     height:240px;
     width: 260px;
     border-radius: 50%;
+}
+
+/* signup */
+#signupform {
+    text-align: center;
+    padding: 80px 10px 10px 10px;
+    height: 500px;
+    width: 100%;
+    background-image: url(/assets/images/roses.jpg);
+    background-position: center;
+    background-size: cover;
+   
+}
+form {
+    width: 30%;
+    height: 300px;
+    display: inline-block;
+    text-align: right;
+    font-family: Abhaya Libre, sans-serif;
+    color: #DAA520;
+    border: 1px solid #DAA520 ;
+    background-color: rgba(161, 35, 84, 0.7);
+    padding: 5px;
+}
+
+input {
+    width: 100%;
+    border: 2px solid #DAA520;
+    border-radius: 4px;
+}
+
+
+input::placeholder {
+    opacity: 20%;
+   
 }
 
 /* footer */
