@@ -203,16 +203,10 @@ h1,h2 {
     list-style-position: inside;
 }
 
-#pancakes-image {
-    width: 50%;
-    float: right;
-    height: 80px;
-}
-
-#pancakes-image img {
-    height: 240px;
-    width:  260px;
+.methodandimage img {
     border-radius: 50%;
+    height: 300px;
+    width: 300px;
 }
 
 /* signup */
