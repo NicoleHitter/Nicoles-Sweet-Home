@@ -177,20 +177,65 @@ h1,h2 {
     color: #DAA520;
 }
 
+/* recipe */
+#recipe {
+    text-align: center;
+    padding: 10px;
+    font-family: Abhaya Libre, sans-serif;
+    font-size: large;
+    height: 500px;
+    background-color:rgb(231, 209, 195);
+
+}
+#recipe h3{
+    color: #DAA520;
+}
+
+#method {
+    text-align: left;
+    width: 50%;
+    float: left;
+}
+
+
+#ingredients ul {
+    padding: 10px;
+    color: #2E8B57;
+    list-style-type: none;
+
+}
+
+#method ol {
+    padding: 10px;
+    color: #2E8B57;
+    list-style-type: upper-roman;
+    list-style-position: inside;
+
+}
+
+#pancakes-image {
+    width: 50%;
+    float: right;
+    height: 80px;
+
+}
+
+#pancakes-image img {
+    height:240px;
+    width: 260px;
+    border-radius: 50%;
+}
 
 /* footer */
 footer {
-    background-color: #2E8B57;
-    height: 60px;
-    width: 100%;
+    background-color: #2E8B57;  
     font-family: Abhaya Libre, sans-serif;
     font-size: 20px;
     color:#DAA520;
-   
-    
-}
+    height: 60px;
+  }
 
 footer > p {
     margin-left: 40px;
     padding-top: 20px;
-}
+  }
