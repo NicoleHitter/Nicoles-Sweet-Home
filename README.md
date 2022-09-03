@@ -1,7 +1,7 @@
-# Nicoles-Sweet-Home
-Nicoles Sweet Home is a website made to introduce people to a new home-made bakery, present it's products and give the possibility to register their interest. As for the bakery itself, it is desined to promote it, which will lead to increase number in costumers and productibility. 
+1. # Nicoles-Sweet-Home
+2. Nicoles Sweet Home is a website made to introduce people to a new home-made bakery, present it's products and give the possibility to register their interest. As for the bakery itself, it is desined to promote it, which will lead to increase number in costumers and productibility. 
 
-Features
+3. Features
 Existing Features
 Navigation Bar
 
@@ -29,8 +29,14 @@ The Sign Up Page
 This page will allow the user to get signed up to Nicoles Sweet Bakery. The user will be asked to submit their full name, email address and create a password.
 After submitting their details correctly, user should be redirected to a page with a confirmation message, from where can easily return to any of the previous pages as it has same nav bar and footer.
 
-Features Left to Implement
+4.Features Left to Implement
 The recipe page will be updated weekly with new recipe that is designed to keep user's interest.
 In time the site should allow user to be able to make orders online and might increase the menu list.
 
+5. Typography and color scheme
+Colors have been specified in CSS by hexadecimal (or hex) values. The colors used are complementary colors. Navigation bar and footer are cold green, and content mostly pink, pink or red nuances. Text color used is gold. Green is meant to make user think about fresh products and nature, then pink and gold to introduce him to the world of fairytale, as if to say that despite beeing made with natural ingredients the products also look very good. 
+Font-styles used are Aboreto, Abhaya Libre and Great Vibes. Most of the text is designed using Aboreto as to keep the text classic. The area o the recipe - which allows inventivity, is using Aboreto. Great Vibes is only used as to replate full logo "Nicoles Sweet Home" with initials "NSH".
+
+6. Wireframes 
+7. Technology
 
