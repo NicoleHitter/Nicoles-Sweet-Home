@@ -6,6 +6,12 @@
     border: none;
 }
 
+body,
+html {
+    padding: 0;
+    margin: 0;
+}
+
 body {
     font-family: Aboreto, sans-serif;
     color: #DAA520;
@@ -19,7 +25,7 @@ header {
 
 .genbg {
     background-color: #E7D1C3;
-    height: 100vh;
+    height: fit-content;
     overflow: hidden;
 }
 
@@ -280,31 +286,44 @@ input::placeholder {
 /* footer */
 footer {
     background-color: #2E8B57;
-    font-family: Abhaya Libre, sans-serif;
-    font-size: 1.4em;
-    color: #DAA520;
     width: 100%;
     height: 9vh;
-    padding-left: 10px;
+}
+
+.social-networks {
+    text-align: center;
+}
+
+.social-networks>li {
+    display: inline;
+}
+
+.social-networks i {
+    font-size: 160%;
+    margin: 1%;
+    padding: 5%;
+    color: #DAA520;
 }
 
 /* Media queries */
 /* For larger to medium screens size from 1200px wide and down */
 /* /.active short text by default (resolution > 1200px) */
-    .short-logo { 
-        display: none;
-     }
+.short-logo {
+    display: none;
+}
+
 @media screen and (max-width: 1200px) {
     .short-logo {
         display: none;
     }
- }
- 
- /* For medium screen sizes from 950px wide and down */
- @media screen and (max-width: 950px) {
+}
+
+/* For medium screen sizes from 950px wide and down */
+@media screen and (max-width: 950px) {
     .full-logo {
         display: none;
     }
+
     .short-logo {
         display: inline-block;
         color: #DAA520;
@@ -335,21 +354,23 @@ footer {
         width: 60%;
     }
 
- }
- 
- @media screen and (max-width: 800px) {
+}
+
+@media screen and (max-width: 800px) {
     #muffins-image-welcome-text {
         width: 30%;
     }
+
     #muffins-image-welcome-text h2 {
         text-align: left;
         position: relative;
         bottom: 12%;
         left: 30%;
     }
+
     #motive {
-       width: 65%;
-       line-height: 35px;
+        width: 65%;
+        line-height: 35px;
     }
 
     #contactarea {
@@ -362,6 +383,25 @@ footer {
         height: 30%;
     }
 
-    
- }
- 
+    .img {
+        width: 85%;
+        height: 35%;
+    }
+
+    .methodandimage {
+        width: 100%;
+        height: 25%;
+        position: static;
+        padding: 15% 0 0 0;
+    }
+
+    .methodandimage img {
+        position: static;
+    }
+
+    .confirmationtxt h2 {
+        padding: 20px 5px;
+        font-size: medium;
+    }
+
+}
