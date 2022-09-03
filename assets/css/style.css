@@ -318,6 +318,10 @@ footer {
         font-family: Great Vibes, sans-serif;
     }
 
+    #contactarea {
+        font-size: smaller;
+    }
+
     .methodandimage img {
         width: 70%;
         bottom: 5%;
@@ -334,6 +338,29 @@ footer {
  }
  
  @media screen and (max-width: 800px) {
+    #muffins-image-welcome-text {
+        width: 30%;
+    }
+    #muffins-image-welcome-text h2 {
+        text-align: left;
+        position: relative;
+        bottom: 12%;
+        left: 30%;
+    }
+    #motive {
+       width: 65%;
+       line-height: 35px;
+    }
+
+    #contactarea {
+        font-size: x-small;
+    }
+
+    .leftelem3 {
+        padding: 0 0 0 35%;
+        width: 100%;
+        height: 30%;
+    }
 
     
  }
