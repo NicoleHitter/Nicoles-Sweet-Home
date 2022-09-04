@@ -24,6 +24,7 @@ header {
 }
 
 .genbg {
+    /* sets background color on all pages */
     background-color: #E7D1C3;
     height: fit-content;
     overflow: hidden;
@@ -49,6 +50,7 @@ h2 {
 
 #menu {
     font-size: 110%;
+    /* position nav bar and gives spacing between */
     letter-spacing: 4px;
     border: 0;
     padding: 30px 0 0 0;
@@ -83,6 +85,7 @@ h2 {
     background-size: cover;
     text-align: center;
     padding-top: 80px;
+    /* sets the image to left */
     float: left;
 }
 
@@ -92,17 +95,20 @@ h2 {
 }
 
 #motive {
-    float: right;
     width: 60%;
     text-align: center;
     padding-top: 30vh;
     color: #C71585;
     font-family: Abhaya Libre, sans-serif;
     font-size: x-large;
+    /* gives spacing between lines */
     line-height: 40px;
+    /* sets text to right */
+    float: right;
 }
 
 #contactarea {
+    /* add another background for contact area */
     background-image: url(../images/strawberries.jpg);
 }
 
@@ -110,9 +116,11 @@ h2 {
     color: #FFFF;
 }
 
+/* arranging three divs horizontally */
 .leftelem3 {
     width: 30%;
     height: 15vh;
+    /* this will take left space */
     float: left;
     padding: 0 0 0 2%;
     clear: right;
@@ -120,6 +128,7 @@ h2 {
 
 .rightelem3 {
     width: 30%;
+    /* this will take the right space */
     float: right;
     height: 15vh;
 }
@@ -127,6 +136,7 @@ h2 {
 .centerelem3 {
     width: 30%;
     height: 15vh;
+    /* this will stay in the center */
     float: left;
     clear: right;
 }
@@ -153,8 +163,10 @@ h2 {
 .img {
     margin: 0px 0px;
     padding: 0 5%;
+    /* sets size for each div with class .img */
     width: 20%;
     height: 45vh;
+    /* arranges the divs: three columns and two lines */
     float: left;
     clear: right;
 }
@@ -169,44 +181,52 @@ h2 {
 }
 
 /* recipe */
-#ingredientscenter {
+.recipe h2 {
+    text-align: center;
+    padding: 10px;
+}
+
+.ingredients-center {
     text-align: center;
     font-family: Abhaya Libre, sans-serif;
     font-size: large;
     height: 35vh;
     padding: 3% 0;
     color: #DAA520;
+    width: 100%;
 }
 
-#ingredientscenter h2 {
-    padding: 2px;
-}
-
-.methodandimage {
+.method-left {
     width: 50%;
-    height: 55vh;
-    color: #DAA520;
+    height: 35vh;
+    float: left;
+    clear: right;
     text-align: center;
     font-family: Abhaya Libre, sans-serif;
     font-size: large;
-    float: left;
-    clear: right;
 }
 
-#ingredients ul {
+.ingredients-center ul {
     padding: 2px;
     color: #2E8B57;
     list-style-type: none;
 }
 
-#method ol {
+.method-left ol {
     padding: 1%;
     color: #2E8B57;
     list-style-type: upper-roman;
     list-style-position: inside;
 }
 
-.methodandimage img {
+.image-right {
+    float: right;
+    width: 50%;
+    height: 35vh;
+    text-align: center;
+}
+
+.image-right img {
     border-radius: 50%;
     height: 100%;
     width: 50%;
@@ -220,7 +240,7 @@ h2 {
     text-align: center;
     padding: 80px 10px 10px 10px;
     height: 100vh;
-    width: 100%;
+    width: fit-content;
     background-image: url(../images/roses.jpg);
     background-position: center;
     background-size: cover;
@@ -294,12 +314,13 @@ footer {
     text-align: center;
     text-decoration: none;
     color: #DAA520;
-  }
-  /* a hover effect*/
+}
+
+/* a hover effect*/
 .fa:hover {
     opacity: 0.7;
-  }
- 
+}
+
 /* Media queries */
 /* For larger to medium screens size from 1200px wide and down */
 /* /.active short text by default (resolution > 1200px) */
@@ -332,26 +353,48 @@ footer {
         font-family: Great Vibes, sans-serif;
     }
 
+    #menu {
+        padding: 8% 0 0 0;
+    }
+
     #contactarea {
         font-size: smaller;
     }
 
-    .methodandimage img {
-        width: 70%;
-        bottom: 5%;
+    .method-left {
+        width: 100%;
+        height: 28vh;
     }
 
-    .methodandimage {
-        padding: 20px 0 0 0;
+    .ingredients-center {
+        height: 28vh;
+    }
+
+    .ingredients-center {
+        font-size: 2em;
+    }
+
+    .method-left {
+        font-size: 2em;
+    }
+
+    .image-right {
+        width: 100%;
+        height: 28vh;
+        text-align: center;
+        padding: 0 10% 0 0;
     }
 
     form {
         width: 60%;
     }
-
 }
 
 @media screen and (max-width: 800px) {
+    #menu {
+        padding: 12% 0 0 0;
+    }
+
     #muffins-image-welcome-text {
         width: 30%;
     }
@@ -378,25 +421,64 @@ footer {
         height: 30%;
     }
 
+    .ingredients-center {
+        font-size: 1.4em;
+    }
+
+    .method-left {
+        font-size: 1.4em;
+    }
+
     .img {
         width: 85%;
         height: 35%;
     }
 
-    .methodandimage {
-        width: 100%;
-        height: 25%;
-        position: static;
-        padding: 15% 0 0 0;
-    }
-
-    .methodandimage img {
-        position: static;
+    input {
+        height: 4vh;
     }
 
     .confirmationtxt h2 {
         padding: 20px 5px;
         font-size: medium;
     }
+}
 
+@media screen and (max-width: 600px) {
+    body {
+        font-size: 0.6em;
+    }
+
+    #motive {
+        font-size: 1.4em;
+    }
+
+    .ingredients-center {
+        font-size: 1.4em;
+    }
+
+    .method-left {
+        font-size: 1.4em;
+    }
+
+    .leftelem3 {
+        height: 9vh;
+    }
+
+    .centerelem3 {
+        width: 100%;
+        text-align: center;
+        height: 8vh;
+    }
+
+    .rightelem3 {
+        width: 100%;
+        text-align: center;
+        height: 8vh;
+        padding: 0;
+    }
+
+    .fa {
+        width: fit-content;
+    }
 }
