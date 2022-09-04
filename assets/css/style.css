@@ -242,9 +242,8 @@ h2 {
 /* signup */
 .signupbg {
     text-align: center;
-    padding: 80px 10px 10px 10px;
     height: 100vh;
-    width: fit-content;
+    width: 100%; 
     background-image: url(../images/roses.jpg);
     background-position: center;
     background-size: cover;
@@ -259,7 +258,8 @@ form {
     color: #DAA520;
     border: 1px solid #DAA520;
     background-color: #A1235499;
-    padding: 5px;
+    padding: 4px 0 0 0;
+    margin-top: 5%;
 }
 
 input {
@@ -291,12 +291,17 @@ input::placeholder {
 
 /* confirmation page */
 .confirmationtxt {
-    margin: 10% 20% auto 20%;
+    /* this area will horizontally center div */
+    margin:auto;
     width: 60%;
     height: 30%;
     border: #2E8B57 solid 2px;
     text-align: center;
     background-color: #A1235499;
+    /* this area will vertically center div and make it move together with scroll*/
+    position: fixed;
+    top: 50%;
+    left: 20%;
 }
 
 .confirmationtxt h2 {
