@@ -23,6 +23,10 @@ header {
     background-color: #2E8B57;
 }
 
+iframe {
+    width: 100%;
+}
+
 .genbg {
     /* sets background color on all pages */
     background-color: #E7D1C3;
